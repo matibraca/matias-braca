@@ -74,7 +74,7 @@
 /*main*/
 
 .contenedor-main{
-    background-color: cadetblue;
+    background-image: cadetblue;
   
 }
  
@@ -85,7 +85,7 @@
 .letragrande{
     font-size: 45px; 
     text-align: center;
-    transform: rotate(250deg);
+    
 }
 
 /* imagenes de corte*/
