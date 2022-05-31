@@ -1,0 +1,742 @@
+/*index */
+/*div fondo panatalla*/
+
+* {
+    margin: 0;
+    padding: o;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+    
+
+.header{
+
+    width: 100%;
+    height: 100vw;
+    background-image: url(../imagenes/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.menu{
+    background-color: red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
+    align-items: center;
+}
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;  
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+.menu_items li:hover,li.active{
+    background-color: rgb(141, 129, 129);
+    transition: .4s;
+}
+
+/*.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: aliceblue; 
+    cursor: pointer;
+    display: none;
+}*/
+
+/*main*/
+
+.contenedor-main{
+    background-color: cadetblue;
+  
+}
+.letragrande{
+    font-size: 45px; 
+    text-align: center;
+    
+}
+
+/* imagenes de corte*/
+
+.div_grid{
+    
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr;   
+   
+}
+
+
+img{
+    border: solid 5px;
+    border-color: white;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer .sociales {
+    background: rgb(179, 164, 164);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+footer p{
+    width: 30%;
+    float: left;
+    padding: 25px;
+}
+
+footer .sociales a{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+footer .sociales .facebook{
+    color: blue;
+}
+
+footer .sociales .instagram{
+    color: rgb(207, 109, 109);
+}
+
+footer .sociales .whatsapp{
+    color: greenyellow;
+}
+
+/*mobile*/
+
+@media (max-width: 549px) {
+  
+    .menu{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }        
+       
+    
+    .logo {
+        color: aliceblue;
+        font-size: 22px;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .menu_items{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .menu_items li{
+        margin:5px;
+        border-radius: 3px;
+    }
+    .menu_items li a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        display:flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        color:white
+    (14, 12, 12);
+        
+    }
+    .letragrande{
+        font-size: 25px;
+        text-align: center;
+        
+    }
+
+    h2{
+        font-size: 25px;
+        padding: 15px;
+        color:black;
+        text-align: center;
+
+    }
+
+    .div_grid{
+        margin: 20px;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        gap: 15px;
+    }
+  
+
+}
+
+@media(min-width: 550px){
+    .menu{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .logo{
+        color: aliceblue;
+        font-size: 24px;
+        padding: 15px;
+        font-weight: bold;
+    }
+    .menu_items{
+        display: flex;
+        list-style: none;
+        margin-right: 20px;
+
+    }
+
+    .menu_items li{
+        margin: 6px;
+    }
+    .menu_items li a {
+        padding: 1px 10px;
+        text-decoration: none;
+        font-size: 15px;
+        display: flex;
+        text-decoration: uppercase;
+    }
+    .letragrande{
+        font-size: 40px;
+        text-align: center;
+        
+    }
+
+    h2{
+        font-size: 25px;
+        padding: 15px;
+        color:black;
+        text-align: center;
+
+    }
+
+    .div_grid{
+        margin: 20px;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr  1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+
+
+}
+
+/* servicios*/
+
+.header{
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+       
+}
+   
+
+.menu{
+    background-color: red;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
+    align-items: center;
+}
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;  
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+.menu_items li:hover,li.active{
+    background-color: rgb(141, 129, 129);
+    transition: .4s;
+}
+
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: aliceblue; 
+    cursor: pointer;
+    display: none;
+}
+
+/* fin de header del menu*/
+
+/*arranca titulo*/
+
+.h2-servicios{
+    font-size: 35px;
+    color: rgb(192, 34, 34);
+    text-align: center;
+    padding: 40px;
+    background-color: #24303c;
+
+}
+
+/* imagenes del contenido*/
+section {
+    background-color: #24303c;
+}
+.div_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    justify-items: center;  
+   
+}
+figcaption{
+    color: white;
+    padding: 5px;
+}
+
+img{
+    border: solid 5px;
+    border-color: white;
+}
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer .sociales {
+    background: rgb(179, 164, 164);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+
+footer p{
+    width: 30%;
+    float: left;
+    padding: 25px;
+}
+
+footer .sociales a{
+    font-size: 35px;
+    color: #fff;
+}
+
+footer .sociales .facebook{
+    color: blue;
+}
+
+footer .sociales .instagram{
+    color: rgb(207, 109, 109);
+}
+
+footer .sociales .whatsapp{
+    color: greenyellow;
+}
+
+/* medias*/
+
+@media (max-width: 549px) {
+  
+    .menu{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }        
+       
+    
+    .logo {
+        color: aliceblue;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .menu_items{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .menu_items li{
+        margin:5px;
+        border-radius: 3px;
+    }
+    .menu_items li a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        display:flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        color: black;
+    }
+    .div_section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;  
+       
+    }    
+
+}    
+@media (min-width: 550px) {
+    .menu{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .logo{
+        color: aliceblue;
+        font-size: 24px;
+        padding: 15px;
+        font-weight: bold;
+    }
+    .menu_items{
+        display: flex;
+        list-style: none;
+        margin-right: 20px;
+
+    }
+
+    .menu_items li{
+        margin: 6px;
+    }
+    .menu_items li a {
+        padding: 1px 10px;
+        text-decoration: none;
+        font-size: 15px;
+        display: flex;
+        text-decoration: uppercase;
+    }    
+    
+}     
+
+/*fin de servicios*/
+
+/* arranca productos*/
+
+
+.headerr{
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.menu{
+    background-color: red;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
+    align-items: center;
+}
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;  
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+.menu_items li:hover,li.active{
+    background-color: rgb(141, 129, 129);
+    transition: .4s;
+}
+
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: aliceblue; 
+    cursor: pointer;
+    display: none;
+}
+
+
+
+h2{
+    
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+
+
+}
+.padre-flex{
+    
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+p{
+    font-size: 20px;
+    font-family: roboto;
+    
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer .sociales {
+    background: rgb(179, 164, 164);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+
+footer p{
+    width: 30%;
+    float: left;
+    padding: 25px;
+}
+
+footer .sociales a{
+    font-size: 35px;
+    color: #fff;
+}
+
+footer .sociales .facebook{
+    color: blue;
+}
+
+footer .sociales .instagram{
+    color: rgb(207, 109, 109);
+}
+
+footer .sociales .whatsapp{
+    color: greenyellow;
+}
+
+
+
+/*turnos*/
+
+.headerr{
+
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+ 
+}
+
+.menu{
+    background-color: red;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
+    align-items: center;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;  
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+
+.menu_items li:hover,li.active{
+    background-color: rgb(141, 129, 129);
+    transition: .4s;
+}
+
+
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: aliceblue; 
+    cursor: pointer;
+    display: none;
+}
+
+.form-registro{
+    width: 350px;
+    background-color: dimgrey;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.form-registro h3{
+    font-size: 23px ;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width:100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    border: 2px solid blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+ .form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+ }
+
+.form-registro a{
+    color: white;
+    text-decoration: none;
+
+}
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.form-registro .botons{
+
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
