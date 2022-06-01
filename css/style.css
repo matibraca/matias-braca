@@ -247,7 +247,7 @@ footer .sociales .whatsapp{
   
 
 }
-
+/*
 @media(min-width: 550px){
     .menu{
         height: 70px;
@@ -306,7 +306,7 @@ footer .sociales .whatsapp{
 }
 
 /* servicios*/
-
+/*
 .header{
 
     width: 100%;
@@ -378,6 +378,9 @@ footer .sociales .whatsapp{
 }
 
 /* imagenes del contenido*/
+
+
+
 section {
     background-color: #24303c;
 }
@@ -440,7 +443,7 @@ footer .sociales .whatsapp{
 }
 
 /* medias*/
-
+/*
 @media (max-width: 549px) {
   
     .menu{
