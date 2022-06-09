@@ -167,6 +167,54 @@
 
 }
 
+footer{
+    width: 100%;
+    margin-top: 50px;
+
+    .sociales{
+        font-size: 35px;
+    color: #fff;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-decoration: none;
+
+    p{
+        width: 30%;
+        float: left;
+        padding: 25px;
+    }
+
+    & .sociales a {
+        font-size: 35px;
+    color: #fff;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-decoration: none;
+
+    .facebook{
+        color: blue;
+    }
+    .instagram{
+        color: rgb(207, 109, 109);
+    }
+    .whatsapp{
+        color: greenyellow;
+    }
+
+
+}
+
+    }
+
+
+
+    }
+
+
+
+}
 
 
 
