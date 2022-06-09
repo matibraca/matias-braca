@@ -18,7 +18,7 @@
     opacity: 1;
     visibility: inherit;
     z-index: 20;
-
+   
 }
 .menu{
     background-color: red;
@@ -29,6 +29,8 @@
     border-bottom: 1px solid #fff;
     box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 .logo{
     color: aliceblue;
@@ -69,6 +71,9 @@
     font-size: 32px;
     text-transform: uppercase;
     padding: 30px;
+}
+h2{
+    text-align: center;
 }
 .div-main p{
     width: 80%;
