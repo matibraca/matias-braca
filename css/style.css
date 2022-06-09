@@ -57,7 +57,7 @@
 
 }
 .menu_items li:hover,li.active{
-    background-color: rgb(141, 129, 129);
+    background-color: rgb(71, 67, 67);
     transition: .4s;
 }
 
@@ -66,7 +66,7 @@
     color: white;
 
 }
-.div-h2{
+.div-main{
     font-weight: 400;
     font-size: 32px;
     text-transform: uppercase;
