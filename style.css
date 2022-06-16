@@ -1,0 +1,146 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-image: url(../imagenes/64240-barberia.jpg);
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+}
+.menu{
+  background-color: red;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.logo{
+  color: aliceblue;
+  font-size: 35px;
+  padding: 0 80px;
+  font-weight: bold;  
+}
+.menu_items{
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+.menu_items li{
+  border-radius: 3px;
+  margin: 0 5px;
+}
+.menu_items li a {
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: aliceblue;
+
+}
+.menu_items li:hover,li.active{
+  background-color: rgb(71, 67, 67);
+  transition: .4s;
+}
+
+.contenedor-main{
+  background-image: linear-gradient(103deg, black, transparent);
+  color: white;
+
+}
+.div-main{
+  font-weight: 400;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding: 30px;
+}
+h2{
+  text-align: center;
+}
+.div-main p{
+  width: 80%;
+  font-size: 20px;
+  line-height: 35px;
+  font-size: italic;
+  text-align: center;
+  margin-top:20px ;
+}
+.div_grid{
+
+  margin-top: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr 1fr;
+  grid-template-rows: 1fr 1fr;   
+
+}
+
+
+img{
+  border: solid 5px;
+  border-color: white;
+}
+
+.card {
+  width: 230 px;
+  height: 260px;
+  box-shadow: -5px -5px #a34141,
+   0 0 10px rgb(0,0,0, .15);
+  border-radius: 8px;
+  overflow: hidden; 
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: revert;
+  transition: transform .25s 
+  ease-in-out;
+
+}
+
+.card:hover img{
+  transform: scale(1.25)rotate(10deg);
+}
+/*maps*/
+.icon-fb{
+  color: blue;
+}
+.icon-ig{
+  color: red;
+}
+.icon-wh{
+  color:green;
+}
+
+/*extende */
+
+.btn .bnt--rojo {
+  display: inline;
+  width: 200px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.bnt--rojo{
+  background-color: red;
+  color: white;
+}
+
+.boton--danger{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(157, 157, 9);
+  background-color: red;
+  
+}
+
+/*# sourceMappingURL=style.css.map */

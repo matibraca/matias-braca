@@ -2,8 +2,8 @@
     width: 100%;
     height: 100vh;
     background{
-        position:center top ;
-        size: cover;
+        size:cover ;
+        position: center top;
     }
     background-repeat: no-repeat;
     background-image: url(../imagenes/64240-barberia.jpg);
@@ -166,7 +166,64 @@
 
 
 }
+/*maps*/
+$red-social:(
+    fb: blue,
+    ig:red,
+    wh:green,
 
+);
+
+@each $nombre, $valor in $red-social{
+    .icon-#{nombre} {
+        color: $valor;
+    }
+
+}
+
+$colores:(
+
+    base:#a198a1,
+    principal:yellow,
+    fondo:orange,
+);
+
+.muestra-color {
+    background: map-get($colores , fondo );
+}
+
+/*extend*/
+
+.btn .bnt--rojo {
+    display: inline;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.bnt--rojo{
+    @extend .btn;
+    background-color: red;
+    color: white;
+}
+
+/* mixins*/
+
+@mixin boton {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(157, 157, 9);
+    
+}
+.boton--danger{
+    @include boton;
+    background-color: red;
+}
+
+
+/*
 footer{
     width: 100%;
     margin-top: 50px;
@@ -178,7 +235,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     text-decoration: none;
-
+    
     p{
         width: 30%;
         float: left;
@@ -204,20 +261,8 @@ footer{
     }
 
 
-}
-
     }
-
-
-
-    
-
-
-
+    }
 }
 
 
-
-
-
-   
