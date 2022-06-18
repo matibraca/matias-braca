@@ -9,4 +9,37 @@
   visibility: inherit;
   z-index: 20;
 }
+
+/*maps*/
+.icon-fb {
+  color: blue;
+}
+
+.icon-ig {
+  color: red;
+}
+
+.icon-wh {
+  color: green;
+}
+
+.muestra-color {
+  background: #a198a1;
+  padding: 20px;
+}
+
+/*extend*/
+.btn .bnt--rojo {
+  display: inline;
+  width: 200px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.bnt--rojo {
+  background-color: red;
+  color: blue;
+}
 /*# sourceMappingURL=main.css.map */
