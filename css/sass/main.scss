@@ -10,33 +10,46 @@
     z-index: 20;
    
 }
+$colores: (
+    primario:black,
+    secundario:rgb(105, 96, 96)
 
-/*maps*/
-.icon-fb{
-    color: blue;
+);
+footer{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 15px 10px;
+        align-items: center;
+
+    .sociales{
+
+        background: map-get($colores , $secundario); 
+       
+        .p-sociales{
+            width: 30%;
+            float: left;
+            padding: 25px;     
+        }
+
+        .facebook{
+            color: blue;
+        }
+        .instagram{
+            color: rgb(207, 109, 109);
+        }
+        .whatsapp{
+            color: greenyellow;
+        }
+        
+
+
+
+    }
+
 }
-.icon-ig{
-    color: red;
-}
-.icon-wh{
-    color:green;
-}
-.muestra-color{
-    background: #a198a1;
-    padding: 20px;
-}
-/*extend*/
-.btn .bnt--rojo {
-    display: inline;
-    width: 200px;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 20px;
-  }
-  .bnt--rojo{
-    background-color: red;
-    color: blue;
-  }
 
 

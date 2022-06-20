@@ -16,20 +16,15 @@
 }
 
 .icon-ig {
-  color: red;
+  color: violet;
 }
 
-.icon-wh {
+.icon-wht {
   color: green;
 }
 
-.muestra-color {
-  background: #a198a1;
-  padding: 20px;
-}
-
 /*extend*/
-.btn .bnt--rojo {
+.bnt .bnt--rojo {
   display: inline;
   width: 200px;
   text-decoration: none;

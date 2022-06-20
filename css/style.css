@@ -82,14 +82,20 @@ h2{
     font-size: italic;
     text-align: center;
     margin-top:20px ;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .div_grid{
 
     margin-top: 20px;
     padding: 20px;
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr  1fr 1fr;
-    grid-template-rows: 1fr 1fr;   
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;   
+
 
 }
 
@@ -120,35 +126,11 @@ img{
 .card:hover img{
     transform: scale(1.25)rotate(10deg);
 }
-/*maps*/
-.icon-fb{
-    color: blue;
-}
-.icon-ig{
-    color: red;
-}
-.icon-wh{
-    color:green;
-}
-.muestra-color{
-    background: #a198a1;
-    padding: 20px;
-}
-/*extend*/
-.btn .bnt--rojo {
-    display: inline;
-    width: 200px;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 20px;
-  }
-  .bnt--rojo{
-    background-color: red;
-    color: white;
-  }
 
-/*footer*
+
+
+
+footer
 
 footer{
     width: 100%;
@@ -165,7 +147,7 @@ footer .sociales {
     align-items: center;
 }
 
-footer p{
+footer h4{
     width: 30%;
     float: left;
     padding: 25px;
@@ -175,8 +157,8 @@ footer .sociales a{
     font-size: 35px;
     color: #fff;
     margin-bottom: 0;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
 
 }
