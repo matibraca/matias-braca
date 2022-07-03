@@ -16,48 +16,40 @@
     opacity: 1;
     visibility: inherit;
     z-index: 20;
-   
 }
-.menu{
-    background-color: rgb(49, 113, 233);
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #fff;
-    box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
-    align-items: center;
-    position: fixed;
-    top: 0;
-}
-.logo{
-    color: aliceblue;
-    font-size: 35px;
-    padding: 0 80px;
-    font-weight: bold;  
-}
-.menu_items{
-    display: flex;
-    list-style: none;
-    margin-right: 30px;
-}
-.menu_items li{
-    border-radius: 3px;
-    margin: 0 5px;
-}
-.menu_items li a {
-    padding: 7px 13px;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-    text-transform: uppercase;
-    color: aliceblue;
+/* comienza section*/
 
+.section{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
 }
-.menu_items li:hover,li.active{
-    background-color: rgb(191, 7, 7);
-    transition: .4s;
+
+.section-h2{
+    text-align: center;
 }
+.border-span{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+.section-p{
+    margin: 48px auto;
+    max-width: 630px;
+    text-align: justify;
+}
+
+strong{
+    font-weight: 400;
+}
+span{
+    font-style: italic;
+}
+
+/*comienza nuestros trabajos (main)*/
+
 
 .contenedor-main{
     background-image: linear-gradient(103deg, black, transparent);
@@ -72,8 +64,10 @@
 }
 h2{
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
 }
-.div-main p{
+.main-p{
     width: 80%;
     font-size: 20px;
     line-height: 35px;
@@ -82,7 +76,9 @@ h2{
     margin-top:20px ;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
+
 
 .div_grid{
 
@@ -106,8 +102,7 @@ img{
 .card {
     width: 230 px;
     height: 260px;
-    box-shadow: -5px -5px #a34141,
-     0 0 10px rgb(0,0,0, .15);
+
     border-radius: 8px;
     overflow: hidden; 
 }
@@ -128,23 +123,24 @@ img{
 
 footer{
     width: 100%;
-    margin-top: 50px;
+    
 }
 
 footer .sociales {
-    background: rgb(179, 164, 164);
+    background: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 15px 10px;
+    padding: 60px 35px;
     align-items: center;
+    color: white;
 }
 
 footer h4{
     width: 30%;
     float: left;
-    padding: 25px;
+    
 }
 
 footer .sociales a{
@@ -171,17 +167,14 @@ footer .sociales .whatsapp{
     color: greenyellow;
 }
 
-@media(max-width:580px)  {
-    .navbar-brand{
-        color: aliceblue;
-    }
+
 
 
     
     
 
     
-}
+
 
 /*servicios*/
 
@@ -197,10 +190,10 @@ footer .sociales .whatsapp{
 }
 
 .h1-servicios{
-    margin-top: 100px;
+    margin-top: 0px;
     font-family: Ultra;
-    color: #856a13;
-    font-size: 36px;
+    color: #927414;
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 0.20em;
 }
@@ -212,7 +205,9 @@ footer .sociales .whatsapp{
     margin-right: auto;
     padding-top: 20px;
     font-size: 20px;
+    color: #d1c6a3f7;
 }
+
 
 footer{
     width: 100%;
